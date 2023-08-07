@@ -10,3 +10,7 @@ def func1(a, b):
 
 def func2(a, b, c):
     return func1(a, b) + c
+
+
+a1, a2, a3 = 1, 2, 3
+print(func2(a1, a2, a3))
