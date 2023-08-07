@@ -5,3 +5,8 @@ add by branch b1.
 add by branch b2.
 
 print("some messages add by main")
+def func1(a, b):
+    return a+b+0.1
+
+def func2(a, b, c):
+    return func1(a, b) + c
